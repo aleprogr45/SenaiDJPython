@@ -1,0 +1,79 @@
+<style>
+    html {
+        font-size: 60%;
+    }
+
+    body {
+        font-size: 16px;
+        background-color: grey;
+    }
+
+    .principal-cabecalho-container {
+        background-color: black;
+        padding: 1.6rem 0;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .logo-principal {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    .form-buscador {
+        border: 1rem solid #ccc;
+        max-width: 50rem;
+        margin: 0 auto;
+        border-radius: 1rem;
+        position: relative;
+        transition: all 0.3s;
+    }
+
+    .entrada-buscador,
+    .bota-buscador {
+        border: none;
+        background: none;
+        outline: none;
+        padding: 1rem;
+    }
+
+    .entrada-buscador {
+        width: 100%;
+        font-size: 1.6rem;
+        padding-right: 4rem;
+    }
+
+    .botao-buscador {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .botao-buscador:focus {
+        outline: 1px solid #13141f;
+        background: rgb(255, 255, 255);
+    }
+
+    .form-buscador:focus-within,
+    .botao-buscador {
+        border-color: red;
+
+    }
+
+    .principal-conteudo-container {
+        padding-top: 0;
+    }
+
+    .principal-conteudo-lista {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 4rem;
+        background: blue;
+    }
+
+    .temp {
+        background: red;
+    }
+</style>

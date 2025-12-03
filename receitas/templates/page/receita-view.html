@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-{% include "parciais/head.html" %}
-{% include "parciais/cabecalho.html" %}
-{% include "parciais/card.html" %}
+{% extends "base/basePagina.html" %}
 
-
-
-
-<body>
-    {% include "parciais/buscador.html" %}
+{% block conteudo %}
     <main class="principal-conteudo-container">
         {% include "parciais/card-receita.html" %}
-
     </main>
-    {% include "parciais/rodape.html" %}
-
-</body>
-
-</html>
+{% endblock conteudo %}
